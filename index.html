@@ -8,7 +8,7 @@
     <title>Ralonik</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light  px-5  fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-white bg-white p-3 px-5  fixed-top">
         <a class="navbar-brand" href="#">
             <img src="./images/Ralonik LTD..png" alt="Logo" >
         </a>
@@ -19,19 +19,19 @@
         
         <div class="collapse navbar-collapse " id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
+                <li class="nav-item me-5">
                     <a class="nav-link active" href="#">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                <li class="nav-item me-5">
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                <li class="nav-item me-5">
+                    <a class="nav-link" href="services.html">Services</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Project</a>
+                <li class="nav-item me-5">
+                    <a class="nav-link" href="project.html">Project</a>
                 </li>
-                <a href="#" class="btn" id="contact-btn">Contact Us</a>
+                <a href="#" class="btn me-5" id="contact-btn">Contact Us</a>
             </ul>
         </div>
     </nav>
@@ -42,14 +42,14 @@
     <section class="p-5">
         <div class="hero-section">
             <div class="hero mt-5">
-                <img src="images/Frame 9.png" class="hero-img " id="hero-img" alt="">
+                <img src="images/Frame 9.png" class="hero-img" id="hero-img" alt="">
                 <div class="hero-text">
-                    <h1 class="fw-bolder fs-1 mb-3">Diverse & Flexible Structure</h1>
+                    <h1 class="hero-text-H1 fw-bolder mb-3">Diverse & Flexible Structure</h1>
                     <p class="mb-3">End to end
                        service in the design, engineering, procurement, fabrication,
                         installation, repair of (GRE), (GRP) and Vinylester Pipe system and products.
                     </p>
-                    <button class="hero-btn p-2">See Project</button>
+                    <button class="hero-btn" ><a href="project.html" style=" text-decoration: none; color: white;">See Project</a></button>
                 </div>
             </div>
             <div class="hero-section-img2">
@@ -58,7 +58,7 @@
         </div>
 
         <div class="hero-about">
-            <img src="images/Frame 41.png" alt="" class="d-none" style="width: 60%;" id="about-img">
+            <img src="images/Frame 41.png" alt=""  class="d-none" style="width: 60%; object-fit: cover;" id="about-img">
             <div class="hero-about-text">
                 <h5 class="mb-4 fw-bold" style="color: #A00107;">RALONIK</h5>
                 <h3 class="mb-4">About Us</h3>
@@ -70,7 +70,7 @@
                     service in the design, engineering, procurement, fabrication, installation, repair and support of Glass fiber Reinforced Epoxy
                     (GRE) Polyester (GRP) and Vinylester Pipe system and products.
                 </p>
-                <button class="about-btn" style="padding: 10px 20px;">Learn More</button>
+                <button class="about-btn" style="padding: 15px 25px;"><a href="project.html" style=" text-decoration: none; color: #A00107;">Learn More</a></button>
 
             </div>
 
@@ -83,10 +83,24 @@
                 <h2 class="mb-3" style="width: 50%;">Transforming With Innovations</h2>
                 <p class="mb-5">Ralonick Constructions operates within the framework of commercial and industrial activities, developing and carrying out basic and detailed services in engineering, procurement, construction, equipment leasing and marine. 
                     We exceed our clients' trust through the timely delivery of quality, satisfactory products and services.</p>
-                 <div class="d-none" id="num-count"> 
-                       <div id="counter1" class="counter fw-bold">25+ </div>
-                       <div id="counter2" class="counter fw-bold">30+</div>
-                       <div id="counter3" class="counter fw-bold">45+</div>
+                 <div class="d-none" id="num-count">
+                    <div class="row text-center">
+                        <div class="col-md-4 counter-container" id="counter1" class="counter fw-bold">
+                            <span class="small-number counter" data-start="45" data-target="55"><span class="big-digit">4</span>5</span>+
+                            <p class="text-desc">Description for 45+</p>
+                        </div>
+                        <div class="col-md-4 counter-container" id="counter2" class="counter fw-bold">
+                           <span class="small-number counter" data-start="30" data-target="40"><span class="big-digit">3</span>0</span>+
+                            <p class="text-desc">Description for 30+</p>
+                        </div>
+                        <div class="col-md-4 counter-container" id="counter3" class="counter fw-bold">
+                            <span class="small-number counter" data-start="5" data-target="15"><span class="big-digit">5</span></span>+
+                            <p class="text-desc">Description for 5+</p>
+                        </div>
+                    </div> 
+                       <!-- <div id="counter1" class="counter fw-bold">2<span>5</span>+ <br> <p>Trusted Partners</p> </div>
+                       <div id="counter2" class="counter fw-bold"><span>3</span>0+ <br> <p>Satisfied Clients</p></div>
+                       <div id="counter3" class="counter fw-bold"><span>5</span>+</div> -->
                 </div> 
 
             </div>
@@ -153,7 +167,7 @@
             </div>
 
             <div>
-                <div class="container mt-3">
+                <div class="container mt-5 w-100">
                     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -164,7 +178,7 @@
                                             <div class="card-body">
                                                 <h5>Active & Passive Fire Proofing</h5>
                                                 <p>Fire Proofing is a vital component for any structure to ensure safety of lives and minimal financial loss of properties. Ralonick offers professional fire proofing services ranging from cemetitious fire proofing, to Automatic fire suppression, etc.</p>
-                                                <button class="learn-btn">LEARN MORE <img src="images/Vector (9).png" alt=""></button>
+                                                <button class="learn-btn mt-3">LEARN MORE <img src="images/Vector (9).png" alt=""></button>
                                             </div>
                                         </div>
                                     </div>
@@ -174,7 +188,7 @@
                                             <div class="card-body">
                                                 <h5>Field Joint Coating Services</h5>
                                                 <p>This involves the coating of girth weld produce on board the pipe-laying vessels or at any offshore location. Ralonick offers engineering design & fabrication of customized field joint coating equipment which involves liquid applied materials.</p>
-                                                <button class="learn-btn">LEARN MORE <img src="images/Vector (9).png" alt=""></button>
+                                                <button class="learn-btn mt-3">LEARN MORE <img src="images/Vector (9).png" alt=""></button>
                                             </div>
                                         </div>
                                     </div>
@@ -198,7 +212,7 @@
                                             <div class="card-body">
                                                 <h5>Active & Passive Fire Proofing</h5>
                                                 <p>Fire Proofing is a vital component for any structure to ensure safety of lives and minimal financial loss of properties. Ralonick offers professional fire proofing services ranging from cemetitious fire proofing, to Automatic fire suppression, etc.</p> 
-                                                <button class="learn-btn">LEARN MORE <img src="images/Vector (9).png" alt=""></button>
+                                                <button class="learn-btn ">LEARN MORE <img src="images/Vector (9).png" alt=""></button>
                                             </div>
                                         </div>
                                     </div>
@@ -238,46 +252,7 @@
                         </div>
                     </div>
                 </div>
-            
             </div>
-
-            
-
-            <style>
-           .carousel-controls {
-            position: absolute;
-            bottom: -60px;
-            right: 20px;
-            display: flex;
-            gap: 10px;
-        }
-        .carousel-control-prev, .carousel-control-next {
-            width: 25px;
-            height: 25px;
-            border-radius: 50%;
-            background-color: #ADADAD;
-            display: flex;
-            align-items: center;
-            padding: 5px;
-            justify-content: center;
-            margin-right: 1rem;
-        }
-            </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
          </div>
 
 
@@ -373,8 +348,8 @@
         <img src="images/Frame 58 (1).png" alt="" class="d-none" id="hero-project2-img2">
     </div>
     <div class="hero-project3">
-        <img src="images/Frame 58.png" alt=""  id="hero-project3-img1">
-        <img src="images/Frame 57.png" alt=""class="d-none" id="hero-project3-img2">
+        <img src="images/Frame 58.png" alt="" class="d-none" id="hero-project3-img1">
+        <img src="images/Frame 57.png" alt="" id="hero-project3-img2">
     </div>
     <div class="hero-project-btn d-none" id="project-btn">
         <button class="mx-auto">All Services</button>

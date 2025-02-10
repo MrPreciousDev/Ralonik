@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: Raleway;
+    src: url(./font/Raleway/Raleway-VariableFont_wght.ttf);
+}
+body{
+    font: inherit;
+    font-family: rAL;
+}
 .nav-link {
     position: relative;
     text-decoration: none;
@@ -30,7 +38,7 @@
 }
 
 /* main-section */
-.hero-text h2{
+.hero-text h1{
   color: #000269;
   width: 55%;
 }
@@ -43,6 +51,7 @@
 }
 .hero-img{
     margin-right: 25px;
+    object-fit: cover;
 }
 .hero-text p{
     width: 85%;
@@ -94,9 +103,9 @@
 }
 .hero-choose-box-1a, .hero-choose-box-1b, .hero-choose-box-1c, .hero-choose-box-1d{
     border: 2px solid #ADADAD;
-    padding: 10px 12px;
+    padding: 10px 12px; 
     margin-bottom: 15px;
-}
+} 
 .hero-choose-box-1a img, .hero-choose-box-1b img, .hero-choose-box-1c img, .hero-choose-box-1d img{
     width: 35px;
     height: 35px;
@@ -134,8 +143,30 @@
     box-shadow: none;
     border-style: none;
 }
+.carousel-controls {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ADADAD;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+    margin-right: 1rem;
+}
+.card-body{
+    text-align: start;
+    line-height: 1.5;
+}
 .hero-service-info button{
-    margin-top: 4rem;
+    /* margin-top: 2rem; */
     padding: 10px 20px;
     background-color: white;
     color: #A00107;
@@ -189,7 +220,7 @@
     display: flex;
     margin-bottom: 9.5rem;
 }
-#hero-project3-img1{
+#hero-project3-img2{
     position: absolute;
     left: 1%;
     width: 100%;
@@ -203,6 +234,7 @@
 footer{
     margin-top: 20rem;
     justify-content: space-between;
+    padding: 15px;
 }
 .footer-text1{
     width: 60%;
@@ -251,26 +283,44 @@ footer{
     }
    #hero-img{
     display: block !important;
+    width: 50%;
+    height: 40vw;
    }
+   .hero-btn{
+    background-color: #A00107;
+   border-radius: 0;
+   color: white;
+   border: none;
+   padding: 15px 30px;
+   margin-top: 2rem;
+}
    .hero{
     display: flex;
    }
-   .hero-text h1{
+   .hero-text-H1{
     color: #000269;
-    width: 50%;
-    font-size: 88px;
+    width: 55%;
+    font-size: 54px;
+    margin-top: 4.5rem;
   }
   .hero-text p{
     width: 55%;
+    font-size: 20px;
+    color: #000269;
+    margin-top: 1rem;
+}
+#contact-btn{
+    padding: 10px 15px;
 }
 .about-btn{
     color: red;
     background-color: white;
     border: 1px solid red;
-    padding: 20px 30px;
+    padding: 15px 30px;
 }
 #hero-img2{
     display: block !important;
+    margin-top: 5rem;
 }
 #about-img{
     display: block !important;
@@ -318,8 +368,35 @@ footer{
     display: flex;
 }
 .hero-choose-box-1a, .hero-choose-box-1b, .hero-choose-box-1c, .hero-choose-box-1d{
-    width: 370px;
+    width: 380px;
     margin-bottom: 0;
+} 
+
+.hero-choose-box-1a{
+    border: 2px solid #ADADAD;
+    padding: 10px 12px;
+}
+.hero-choose-box-1c{
+    border-top: 0px solid #ADADAD;
+    border-right: 2px solid #ADADAD;
+    border-left: 2px solid #ADADAD ;
+    border-bottom: 2px solid #ADADAD;
+    padding: 10px 12px;
+}
+.hero-choose-box-1b{
+    border-top: 2px solid #ADADAD;
+    border-left: 0px solid #ADADAD;
+    border-right: 2px solid #ADADAD;
+    border-bottom: 2px solid #ADADAD;
+    padding: 10px 12px;
+}
+.hero-choose-box-1d{
+    border-top: 0px solid #ADADAD;
+    border-left: 0px solid #ADADAD;
+    border-right: 2px solid #ADADAD;
+    border-bottom: 2px solid #ADADAD;
+    padding: 10px 20px;
+    
 }
 /* .hero-chooseboxx{
     padding: 0rem 10rem;
@@ -350,6 +427,12 @@ footer{
 }
 #card{
     width: 430px;
+}.card-body{
+    text-align: start;
+    height: 270px;
+    line-height: 1.5;
+    width: 350px;
+
 }
 .hero-project{
     margin-top: 12rem;
@@ -408,15 +491,17 @@ footer{
     z-index: 2;
     object-fit: cover;
     width: 25%;
+    display: block !important;
 
 }
 #hero-project3-img2{
     position: absolute;
     left: 20%;
     z-index: 1;
+    width: 80%;
     height: 260px;
     object-fit: cover;
-    display: block !important;
+    
 }
 #project-btn{
     display: block !important;
@@ -427,7 +512,7 @@ footer{
 #project-btn button{
     position: absolute;
     left: 45%;
-    padding: 10px 25px;
+    padding: 15px 30px;
     border: none;
     color: white;
     background-color: #A00107;
@@ -444,6 +529,9 @@ footer{
 }
 .footer-color{
     color: #000000;
+}
+.footer-text1 button{
+    padding: 10px 20px;
 }
 .footer-text5 button{
     padding: 10px 20px;

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="about.css">
+    <title>Ralonik</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-white bg-white p-3  px-5  fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="./images/Ralonik LTD..png" alt="Logo" >
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item me-5">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item me-5">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item me-5">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item me-5">
+                    <a class="nav-link" href="project.html">Project</a>
+                </li>
+                <a href="#" class="btn me-5" id="contact-btn">Contact Us</a>
+            </ul>
+        </div>
+    </nav>
+
+
+
+<!-- 
+
+    <style>
+        .counter-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .big-number {
+            font-size: 80px;
+            font-weight: bold;
+        }
+        .small-number {
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .text-desc {
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+
+<div class="container mt-5">
+    <div class="row text-center">
+        <div class="col-md-4 counter-container">
+            <span class="small-number counter" data-start="45" data-target="55"><span class="big-digit">4</span>5</span>+
+            <p class="text-desc">Description for 45+</p>
+        </div>
+        <div class="col-md-4 counter-container">
+           <span class="small-number counter" data-start="30" data-target="40"><span class="big-digit">3</span>0</span>+
+            <p class="text-desc">Description for 30+</p>
+        </div>
+        <div class="col-md-4 counter-container">
+            <span class="small-number counter" data-start="5" data-target="15"><span class="big-digit">5</span></span>+
+            <p class="text-desc">Description for 5+</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    function animateCounters() {
+        const counters = document.querySelectorAll('.counter');
+        counters.forEach(counter => {
+            const start = parseInt(counter.getAttribute('data-start'));
+            const target = parseInt(counter.getAttribute('data-target'));
+            let count = start;
+            const increment = Math.ceil((target - start) / 100); 
+
+            function updateCounter() {
+                if (count < target) {
+                    count += increment;
+                    counter.innerText = count;
+                    requestAnimationFrame(updateCounter);
+                } else {
+                    counter.innerText = target; 
+                }
+            }
+            updateCounter();
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', animateCounters);
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+
+     -->
+
+
+<!-- footer -->
+ <footer class="d-flex w-100">
+    <div class="footer-text1">
+        <h3>RALONIK LTD</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum culpa, maxime vitae velit atque reiciendis iusto optio cumque laudantium nemo!</p>
+        <button>About Ralonik</button>
+    </div>
+    <div  class="footer-text2 d-none" id="footer2">
+        <p class="footer-color fw-bold">Company</p>
+        <p>About</p>
+        <p>Project</p>
+        <p>Services</p>
+    </div>
+    <div  class="footer-text3 d-none" id="footer4">
+        <p class="footer-color fw-bold">Services</p>
+        <p>Dredging</p>
+        <p>Fireproofing</p>
+        <p>Constructing</p>
+        <a href=""><p>See all Services</p></a>
+    </div>
+    <div  class="footer-text4 d-none" id="footer4">
+        <p class="footer-color fw-bold">Contact</p>
+        <p class="footer-color fw-bold">+234 7061 118 1624</p>
+        <p>456 Washington</p>
+        <p>Ave Manchester</p>
+        <p>Kentucky</p>
+        <p class="footer-color fw-bold">info@ralonik.com</p>
+        <p>Mon-Sat: 8am-5pm</p>
+    </div>
+    <div  class="footer-text5">
+        <div class="d-flex" style="justify-content: space-between;">
+            <img src="images/MAKERS_SOCIAL_MEDIA_ICONS.png" style="object-fit:cover;" alt="">
+            <img src="images/vectors.png" alt="" style="object-fit:cover;">
+            <img src="images/vectors (1).png" alt="" style="object-fit:cover;">
+        </div>
+        <p class="footer-color mt-5">Still have a question?</p>
+        <button>Send a Message</button>
+    </div>
+ </footer>
+
+
+
+
+
+
+
+
+         
+
+
+
+
+
+
+
+
+
+
+
+    <script src="scripts.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

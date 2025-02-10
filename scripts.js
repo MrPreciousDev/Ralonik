@@ -12,4 +12,4 @@ function incrementCounter(elementId, start, end) {
 
 incrementCounter("counter1", 25, 95);
 incrementCounter("counter2", 30, 120);
-incrementCounter("counter3", 45, 135);
+incrementCounter("counter3", 5, 35);
