@@ -110,14 +110,36 @@ body{
     z-index: 1;
     object-fit: cover;
 }
-
+.ques{
+    position: relative;
+    margin-bottom: 5rem;
+}
 .ques-btn{
     color: #A00107;
     border: 1px solid #A00107;
     padding: 10px 20px;
     background-color: white;
+    position: absolute;
+    left: 30%;
 }
+.carousel-container{
+    margin-top: 5rem;
+}
+.carousel2-control-prev, .carousel2-control-next {
+    border: 1px solid #A00107;
+    border-radius: 60%;
+    padding: 4px 7px;
+}
+.carousel2-control-next {
+    margin-left: 10px;
+}
+.carousel-controls {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    gap: 10px;
 
+}
 
 
 
@@ -209,6 +231,14 @@ footer{
         background-color: #A00107;
         color: white;
     }
+    .ques{
+        position: relative;
+    }
+    .ques-btn{
+        position: absolute;
+        left: 45%;
+        
+    }
     
 
 
@@ -296,14 +326,7 @@ footer{
         background-color: #A00107;
     
     }
-    .ques{
-        position: relative;
-    }
-    .ques-btn{
-        position: absolute;
-        left: 45%;
-        
-    }
+    
     #carousel-set{
         margin-top: 10rem;
     }
@@ -326,6 +349,7 @@ footer{
         padding: 4px 7px;
 
     }
+    
     .carousel2-control-prev img, .carousel2-control-next img{
         width: 10px !important;
         height: 10px !important;
