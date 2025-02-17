@@ -48,6 +48,18 @@ body{
 }
 
 
+/* why choose us */
+.hero-choose-box-1a, .hero-choose-box-1b, .hero-choose-box-1c, .hero-choose-box-1d{
+    border: 2px solid #ADADAD;
+    padding: 10px 12px; 
+    margin-bottom: 15px;
+} 
+.hero-choose-box-1a img, .hero-choose-box-1b img, .hero-choose-box-1c img, .hero-choose-box-1d img{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 5px;
+}
+
 
 
 
@@ -168,6 +180,61 @@ footer{
 .mission{
     line-height: 1.5;
     width: 90%;
+}
+
+
+/* why choose us */
+#hero-choose-img{
+    display: block !important;
+}
+.hero-choose-box-1,.hero-choose-box-2,.hero-choose{
+    display: flex;
+}
+.hero-choose-box-1a, .hero-choose-box-1b, .hero-choose-box-1c, .hero-choose-box-1d{
+    width: 380px;
+    margin-bottom: 0;
+} 
+
+.hero-choose-box-1a{
+    border: 2px solid #ADADAD;
+    padding: 10px 12px;
+}
+.hero-choose-box-1c{
+    border-top: 0px solid #ADADAD;
+    border-right: 2px solid #ADADAD;
+    border-left: 2px solid #ADADAD ;
+    border-bottom: 2px solid #ADADAD;
+    padding: 10px 12px;
+}
+.hero-choose-box-1b{
+    border-top: 2px solid #ADADAD;
+    border-left: 0px solid #ADADAD;
+    border-right: 2px solid #ADADAD;
+    border-bottom: 2px solid #ADADAD;
+    padding: 10px 12px;
+}
+.hero-choose-box-1d{
+    border-top: 0px solid #ADADAD;
+    border-left: 0px solid #ADADAD;
+    border-right: 2px solid #ADADAD;
+    border-bottom: 2px solid #ADADAD;
+    padding: 10px 20px;
+    
+}
+/* .hero-chooseboxx{
+    padding: 0rem 10rem;
+} */
+.hero-choose-box{
+    width: 100%;
+    padding: 0rem 5rem 0 2rem;  
+}
+.hero-choose-head {
+    padding: 0rem 5rem;  
+    
+}
+.hero-choose-img1{
+    width: 400px;
+    height: 700px;
 }
 
 
