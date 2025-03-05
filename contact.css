@@ -31,116 +31,39 @@ body{
 .nav-link.active::after {
     transform: scaleX(1);
 }
-#contact-btn{
-   background-color: #A00107;
-   border-radius: 0;
-   color: white;
+.contact-info1a i,.contact-info1b i,.contact-info1c i{
+    margin-right: 1rem;
+    background-color: #A00107;
+    border-radius: 50%;
+    padding: 12px 8px;
+    height: 40px;
+    color: white;
 }
-
-/* project */
-.hero-project{
-    margin-top: 7rem;
+.contact-page1{
+    padding: 0.2rem;
 }
-.hero-project1{
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-bottom: 9.5rem;
-}
-#hero-project1-img{
-    position: absolute;
-    left: 5px;
-    z-index: 2;
-}
-#hero-project1-img2{
-    position: absolute;
-    left: 1%;
-    width: 100%;
-    height: 130px;
-    z-index: 1;
-    object-fit: cover;
-}
-.hero-project2{
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-bottom: 9.5rem;
-}
-#hero-project2-img1{
-    position: absolute;
-    left: 1%;
-    width: 100%;
-    height: 130px;
-    z-index: 1;
-    object-fit: cover;
-}
-.hero-project3{
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-bottom: 9.5rem;
-}
-#hero-project3-img2{
-    position: absolute;
-    left: 1%;
-    width: 100%;
-    height: 130px;
-    z-index: 1;
-    object-fit: cover;
-}
-
-
-/* about us */
 .about-head img{
     width: 100%;
-    height: 150px;
 }
 .about-head h1{
     color: #000269;
-    margin-top: 10px;
+    margin-top: 0.5rem;
 }
-.project-booking button{
-    padding: 10px 20px;
-    border: none;
+.contact-info{
+    margin-bottom: 3rem;
+}
+#contact-btn{
+    background-color: #A00107;
+    border-radius: 0;
+    color: white;
+ }
+ form button{
+    background-color: #A00107;
+ }
+ .form-btn{
     background-color: #A00107;
     color: white;
-}
-.project-contact-1{
-    width: 100% ;
-}
-.project-contact-2{
-    width: 100% !important;
-}
-.project-contact-2-img{
-    justify-content: space-between;
-    display: flex !important;
-}
-.contact2-img1{
-    width: 98%;
-}
-.contact2-img{
-    margin: 0 10px;
-}
-.project-contact{
-    display: block;
-}
-.project-contact-1 img{
-    margin-left: 2rem;
-   }
-.project-contact{
-    margin-bottom: 10rem;
-}
-
-
-
-
-
-
-
-
+ }
 
 
 
@@ -170,10 +93,6 @@ footer{
     padding: 2px 5px;
     border: none;
 }
-
-
-
-
 
 
 @media (min-width: 768px) {
@@ -209,45 +128,38 @@ footer{
         display:  block !important;
     }
 
-    .project-booking{
+    .contact-page1{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        margin-top: 5rem;
+        margin-bottom: 10rem;
     }
-    .project-text h4{
-        font-size: 40px;
+    .contact-info1b{
+        margin: 2rem 0;
     }
-    .project-booking p{
-        width: 60%;
+    .contact-info{
+        margin-top: 4rem;
     }
-    .project-booking button{
-        padding: 15px 25px;
-        border: none;
+    .contact-info1a i,.contact-info1b i,.contact-info1c i{
+        margin-right: 1rem;
         background-color: #A00107;
+        border-radius: 70%;
+        padding: 17px 10px;
         color: white;
+        height: 46px;
     }
-   .project-contact{
-    display: flex;
-    margin-top: 5rem;
-    width: 100%;
-   }
-   .project-contact-1{
-    width: 540px;
-   }
-   .project-contact-1 div{
-    width: 90%;
-    border-bottom: 1px solid black;
-   }
-   .project-contact-1 p{
-    font-size: 21px;
-   }
-   .project-contact-2{
-    width: 100%;
+    form{
+        margin-left: 5rem;
+    }
+    #exampleFormControlInput1, #exampleFormControlTextarea1{
+        width: 150%;
+    }
+    .form-btn{
+        width: 150px;
+        padding: 8px;
+    }
 
 
-   }
-   .project-contact-1 img{
-    margin-left: 2rem;
-   }
 
 
 
@@ -262,7 +174,7 @@ footer{
     
 /* footer */
 footer{
-    margin-top: -2px;
+    margin-top: -5px;
 }
 .footer-text1{
     width: 30%;

@@ -131,15 +131,7 @@ body{
     padding: 4px 7px;
 }
 .carousel2-control-next {
-    margin-left: 10px;
-}
-.carousel-controls {
-    position: absolute;
-    right: 10px;
-    display: flex;
-    gap: 10px;
-
-}
+    margin-left: 10px;}
 
 
 
@@ -155,7 +147,7 @@ body{
 
 /* footer */
 footer{
-    margin-top: 20rem;
+    margin-top: 10rem;
     justify-content: space-between;
     padding: 15px;
 }
